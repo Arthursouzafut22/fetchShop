@@ -1,0 +1,227 @@
+{   
+      "relogios": [
+            {
+                "id": "relogio1",
+                "nome": "Apple Watch Nike",
+                "foto": ["/src/assets/imgs.vuexx/relogios/relogio1.png"],
+                "preco": 200,
+                "marca": "Apple Nike",
+                "descricao": "Apple Watch Nike Se Gps Cellular 44mm Pulseira Cinza-preto Cor Da Pulseira Cinza-carvão/preto Cor Da Caixa Cinza-espacial"
+            },
+            {
+                "id": "relogio2",
+                "nome": "Apple Watch SE GPS",
+                "foto": ["/src/assets/imgs.vuexx/relogios/relogio2.png"],
+                "preco": 300,
+                "marca": "Apple Watch",
+                "descricao": "Apple Watch SE GPS • Caixa estelar de alumínio – 40 mm • Pulseira loop esportiva estelar"
+            },
+            {
+                "id": "relogio3",
+                "nome": "Apple Watch Nike",
+                "foto": ["/src/assets/imgs.vuexx/relogios/relogio3.png"],
+                "preco": 400,
+                "marca": "Apple Nike",
+                "descricao": "Apple Watch SE GPS • Caixa estelar de alumínio – 40 mm • Pulseira loop esportiva estelar"
+            },
+            {
+                "id": "relogio4",
+                "nome": "Apple Watch SE",
+                "foto": ["/src/assets/imgs.vuexx/relogios/relogio4.png"],
+                "preco": 500,
+                "marca": "Apple Nike",
+                "descricao": "Apple Watch SE GPS • Caixa estelar de alumínio – 40 mm • Pulseira loop esportiva estelar"
+            },
+            {
+                "id": "relogio5",
+                "nome": "Apple Watch Nike Se",
+                "foto": ["/src/assets/imgs.vuexx/relogios/relogio5.png"],
+                "preco": 600,
+                "marca": "Apple Watch",
+                "descricao": "Apple Watch Nike Se Gps Cellular 44mm Pulseira Cinza-preto Cor Da Pulseira Cinza-carvão/preto Cor Da Caixa Cinza-espacial"
+            },
+            {
+                "id": "relogio6",
+                "nome": "Apple Watch Series",
+                "foto": ["/src/assets/imgs.vuexx/relogios/relogio6.png"],
+                "preco": 560,
+                "marca": "Apple Watch",
+                "descricao": "Apple Watch Series 9 Gps Caixa Prateada De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno"
+            },
+            {
+                "id": "relogio7",
+                "nome": "Apple Watch Gold",
+                "foto": ["/src/assets/imgs.vuexx/relogios/relogio7.png"],
+                "preco": 450,
+                "marca": "Apple Watch",
+                "descricao": "Apple Watch Series 9 Gps Caixa Prateada De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno"
+            },
+            {
+                "id": "relogio8",
+                "nome": "Apple Watch Black",
+                "foto": ["/src/assets/imgs.vuexx/relogios/relogio8.png"],
+                "preco": 800,
+                "marca": "Apple Watch",
+                "descricao": "Apple Watch Series 9 Gps Caixa Black De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno"
+            },
+            {
+                "id": "relogio9",
+                "nome": "Apple Watch Blue",
+                "foto": ["/src/assets/imgs.vuexx/relogios/relogio9.png"],
+                "preco": 800,
+                "marca": "Apple Watch",
+                "descricao": "Apple Watch Series 9 Gps Caixa Blue De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno"
+            }
+        ],
+
+        "tenis" : [
+            {
+                "id": "tenis1",
+                "nome": "Tênis Air Jordan 1 Low",
+                "foto": ["/src/assets/imgs.vuexx/tenis/tenis1.png"],
+                "preco": 560,
+                "marca": "Nike",
+                "descricao": "Inspirado no original que estreou em 1985, o Air Jordan 1 Low oferece um visual clássico e limpo"
+            },
+            {
+                "id": "tenis2",
+                "nome": "Tênis Air max 1",
+                "foto": ["/src/assets/imgs.vuexx/tenis/tenis2.png"],
+                "preco": 800,
+                "marca": "Nike",
+                "descricao": "Inspirado no original que estreou em 1985, o Air Jordan 1 Low oferece um visual clássico e limpo"
+            },
+            {
+                "id": "tenis3",
+                "nome": "Tênis Nike Air Max 90",
+                "foto": ["/src/assets/imgs.vuexx/tenis/tenis3.png"],
+                "preco": 700,
+                "marca": "Nike",
+                "descricao": "Amarre os cadarços e sinta o legado. Produzido na interseção entre artes, música e cultura,"
+            },
+            {
+                "id": "tenis4",
+                "nome": "Tênis Air Jordan 1",
+                "foto": ["/src/assets/imgs.vuexx/tenis/tenis4.png"],
+                "preco": 900,
+                "marca": "Nike",
+                "descricao": "Novas cores e novas texturas dão a você um AJ1 atualizado sem perder aquela ótima aparência "
+            },
+            {
+                "id": "tenis5",
+                "nome": "Tênis Nike Air Max 90",
+                "foto": ["/src/assets/imgs.vuexx/tenis/tenis5.png"],
+                "preco": 400,
+                "marca": "Nike",
+                "descricao": "Amarre os cadarços e sinta o legado. Produzido na interseção entre artes, música e cultura"
+            },
+            {
+                "id": "tenis6",
+                "nome": "Tênis Nike Air Force",
+                "foto": ["/src/assets/imgs.vuexx/tenis/tenis6.png"],
+                "preco": 350,
+                "marca": "Nike",
+                "descricao": "Tudo o que você ama no AF1 — agora em dobro! O Nike Air Force 1 Shadow dá um toque divertido"
+            },
+            {
+                "id": "tenis7",
+                "nome": "Tênis Nike Jordan",
+                "foto": ["/src/assets/imgs.vuexx/tenis/tenis7.png"],
+                "preco": 750,
+                "marca": "Nike",
+                "descricao": "Tudo o que você ama no Jordan agora em dobro! O Nike Air Jordan 1 Shadow dá um toque divertido"
+            },
+            {
+                "id": "tenis8",
+                "nome": "Tênis Nike Pink",
+                "foto": ["/src/assets/imgs.vuexx/tenis/tenis8.png"],
+                "preco": 650,
+                "marca": "Nike",
+                "descricao": "Tudo o que você ama no Pink agora em dobro! O Nike Air Pink 1 Shadow dá um toque divertido"
+            }
+        ],
+
+        "roupas": [
+            {
+                "id": "roupa1",
+                "nome": "Camiseta Nike",
+                "foto": ["/src/assets/imgs.vuexx/roupas/roupa1.png"],
+                "preco": 150,
+                "marca": "Nike",
+                "descricao": "A camiseta NikeCourt traz tecido que absorve o suor e ajuda a manter você fresco e confiante "
+            },
+            {
+                "id": "roupa2",
+                "nome": "Moletom Nike",
+                "foto": ["/src/assets/imgs.vuexx/roupas/roupa2.png"],
+                "preco": 250,
+                "marca": "Nike",
+                "descricao": "Realize diversas combinações estilosas ao lado da Blusa de Moletom Soft New.Possui bolso "
+            },
+            {
+                "id": "roupa3",
+                "nome": "Jaqueta Nike",
+                "foto": ["/src/assets/imgs.vuexx/roupas/roupa3.png"],
+                "preco": 450,
+                "marca": "Nike",
+                "descricao": "A JAQUETA NIKE RUNNING. A Jaqueta Nike Windrunner recebe uma atualização com materiais que repelem a água e um design compactável"
+            },
+            {
+                "id": "roupa4",
+                "nome": "Camiseta Nike Rafa",
+                "foto": ["/src/assets/imgs.vuexx/roupas/roupa4.png"],
+                "preco": 100,
+                "marca": "Nike",
+                "descricao": "Quando se fala em qualidade e conforto, pensamos em uma das marcas mais renomadas do mercado  Nike! Esta marca"
+            },
+            {
+                "id": "roupa5",
+                "nome": "Moletom Nike F.C.",
+                "foto": ["/src/assets/imgs.vuexx/roupas/roupa5.png"],
+                "preco": 240,
+                "marca": "Nike",
+                "descricao": "O moletom com capuz Nike FC possui tecido antissuor e macio para manter o aquecimento"
+            },
+            {
+                "id": "roupa6",
+                "nome": "Camisa Nike F.C.",
+                "foto": ["/src/assets/imgs.vuexx/roupas/roupa6.png"],
+                "preco": 140,
+                "marca": "Nike",
+                "descricao": "Quando se fala em qualidade e conforto, pensamos em uma das marcas mais renomadas do mercado  Nike! Esta marca"
+            },
+            {
+                "id": "roupa7",
+                "nome": "Camisa Nike Blue",
+                "foto": ["/src/assets/imgs.vuexx/roupas/roupa7.png"],
+                "preco": 120,
+                "marca": "Nike",
+                "descricao": "Quando se fala em qualidade e conforto, pensamos em uma das marcas mais renomadas do mercado  Nike! Esta marca"
+            },
+            {
+                "id": "roupa8",
+                "nome": "Camisa Nike Black",
+                "foto": ["/src/assets/imgs.vuexx/roupas/roupa8.png"],
+                "preco": 180,
+                "marca": "Nike",
+                "descricao": "Quando se fala em qualidade e conforto, pensamos em uma das marcas mais renomadas do mercado  Nike! Esta marca"
+            },
+            {
+                "id": "roupa9",
+                "nome": "Camisa Nike Jordan",
+                "foto": ["/src/assets/imgs.vuexx/roupas/roupa9.png"],
+                "preco": 180,
+                "marca": "Nike",
+                "descricao": "Quando se fala em qualidade e conforto, pensamos em Jordan uma das marcas mais renomadas do mercado  Nike! Esta marca"
+            },
+            {
+                "id": "roupa10",
+                "nome": "Camisa Nike Orange",
+                "foto": ["/src/assets/imgs.vuexx/roupas/roupa9.png"],
+                "preco": 200,
+                "marca": "Nike",
+                "descricao": "Quando se fala em qualidade e conforto, pensamos em Jordan uma das marcas mais renomadas do mercado  Nike! Esta marca"
+            }
+        ]
+}  
+
