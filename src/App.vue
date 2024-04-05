@@ -4,6 +4,9 @@ import TheHeader from "./components/TheHeader.vue";
 import BuscarProdutos from "./components/BuscarProdutos.vue";
 
 export default {
+  data() {
+    return {};
+  },
   components: {
     TheHeader,
     BuscarProdutos,
@@ -13,7 +16,6 @@ export default {
 
 <template>
   <TheHeader />
-  <BuscarProdutos />
   <transition mode="out-in">
     <RouterView />
   </transition>

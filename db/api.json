@@ -6,7 +6,7 @@
                 "foto": ["/src/assets/imgs.vuexx/relogios/relogio1.png"],
                 "preco": 200,
                 "marca": "Apple Nike",
-                "descricao": "Apple Watch Nike Se Gps Cellular 44mm Pulseira Cinza-preto Cor Da Pulseira Cinza-carvão/preto Cor Da Caixa Cinza-espacial"
+                "descricao": "Apple Watch Nike Se Gps Cellular 44mm Pulseira Cinza-preto Cor Da Pulseira Cinza-carvão/preto Cor Da Caixa Cinza-espacial processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
             },
             {
                 "id": "relogio2",
@@ -14,7 +14,7 @@
                 "foto": ["/src/assets/imgs.vuexx/relogios/relogio2.png"],
                 "preco": 300,
                 "marca": "Apple Watch",
-                "descricao": "Apple Watch SE GPS • Caixa estelar de alumínio – 40 mm • Pulseira loop esportiva estelar"
+                "descricao": "Apple Watch SE GPS • Caixa estelar de alumínio – 40 mm • Pulseira loop esportiva estelar processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
             },
             {
                 "id": "relogio3",
@@ -22,7 +22,7 @@
                 "foto": ["/src/assets/imgs.vuexx/relogios/relogio3.png"],
                 "preco": 400,
                 "marca": "Apple Nike",
-                "descricao": "Apple Watch SE GPS • Caixa estelar de alumínio – 40 mm • Pulseira loop esportiva estelar"
+                "descricao": "Apple Watch SE GPS • Caixa estelar de alumínio – 40 mm • Pulseira loop esportiva estelar processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
             },
             {
                 "id": "relogio4",
@@ -30,7 +30,7 @@
                 "foto": ["/src/assets/imgs.vuexx/relogios/relogio4.png"],
                 "preco": 500,
                 "marca": "Apple Nike",
-                "descricao": "Apple Watch SE GPS • Caixa estelar de alumínio – 40 mm • Pulseira loop esportiva estelar"
+                "descricao": "Apple Watch SE GPS • Caixa estelar de alumínio – 40 mm • Pulseira loop esportiva estelar processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
             },
             {
                 "id": "relogio5",
@@ -38,7 +38,7 @@
                 "foto": ["/src/assets/imgs.vuexx/relogios/relogio5.png"],
                 "preco": 600,
                 "marca": "Apple Watch",
-                "descricao": "Apple Watch Nike Se Gps Cellular 44mm Pulseira Cinza-preto Cor Da Pulseira Cinza-carvão/preto Cor Da Caixa Cinza-espacial"
+                "descricao": "Apple Watch Nike Se Gps Cellular 44mm Pulseira Cinza-preto Cor Da Pulseira Cinza-carvão/preto Cor Da Caixa Cinza-espacial processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
             },
             {
                 "id": "relogio6",
@@ -46,7 +46,7 @@
                 "foto": ["/src/assets/imgs.vuexx/relogios/relogio6.png"],
                 "preco": 560,
                 "marca": "Apple Watch",
-                "descricao": "Apple Watch Series 9 Gps Caixa Prateada De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno"
+                "descricao": "Apple Watch Series 9 Gps Caixa Prateada De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
             },
             {
                 "id": "relogio7",
@@ -54,7 +54,7 @@
                 "foto": ["/src/assets/imgs.vuexx/relogios/relogio7.png"],
                 "preco": 450,
                 "marca": "Apple Watch",
-                "descricao": "Apple Watch Series 9 Gps Caixa Prateada De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno"
+                "descricao": "Apple Watch Series 9 Gps Caixa Prateada De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
             },
             {
                 "id": "relogio8",
@@ -62,7 +62,7 @@
                 "foto": ["/src/assets/imgs.vuexx/relogios/relogio8.png"],
                 "preco": 800,
                 "marca": "Apple Watch",
-                "descricao": "Apple Watch Series 9 Gps Caixa Black De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno"
+                "descricao": "Apple Watch Series 9 Gps Caixa Black De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
             },
             {
                 "id": "relogio9",
@@ -70,7 +70,7 @@
                 "foto": ["/src/assets/imgs.vuexx/relogios/relogio9.png"],
                 "preco": 800,
                 "marca": "Apple Watch",
-                "descricao": "Apple Watch Series 9 Gps Caixa Blue De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno"
+                "descricao": "Apple Watch Series 9 Gps Caixa Blue De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
             }
         ],
 
@@ -81,7 +81,7 @@
                 "foto": ["/src/assets/imgs.vuexx/tenis/tenis1.png"],
                 "preco": 560,
                 "marca": "Nike",
-                "descricao": "Inspirado no original que estreou em 1985, o Air Jordan 1 Low oferece um visual clássico e limpo"
+                "descricao": "Inspirado no original que estreou em 1985, o Air Jordan 1 Low oferece um visual clássico e limpo "
             },
             {
                 "id": "tenis2",
@@ -89,7 +89,7 @@
                 "foto": ["/src/assets/imgs.vuexx/tenis/tenis2.png"],
                 "preco": 800,
                 "marca": "Nike",
-                "descricao": "Inspirado no original que estreou em 1985, o Air Jordan 1 Low oferece um visual clássico e limpo"
+                "descricao": "Inspirado no original que estreou em 1985, o Air Jordan 1 Low oferece um visual clássico e limpo "
             },
             {
                 "id": "tenis3",

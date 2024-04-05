@@ -2,14 +2,29 @@
 import fetchShop from '@/mixins/fetchShop.js'
 import Love from '../components/Love.vue';
 import Loading from '../components/Loading.vue';
+import BuscarProdutos from "@/components/BuscarProdutos.vue";
+
 export default {
+  data() {
+    return {
+      search: '',
+      filtered_clocks: [],
+    }
+  },
   components: {
     Love,
-    Loading
+    Loading,
+    BuscarProdutos,
   },
   mixins: [fetchShop],
 
-
+  watch: {
+    search(nv) {
+      this.filtered_clocks = this.api.filter((item) =>
+        item.nome.toLowerCase().includes(nv.toLowerCase())
+      );
+    },
+  },
   created() {
     this.fetchShop('/tenis')
   }
@@ -19,8 +34,10 @@ export default {
 
 <template>
    <section>
+    <BuscarProdutos v-model="search"/>
     <div v-if="api.length" class="produtos">
-    <div v-for="tenis in api" :key="tenis" class="produto-tenis">
+    <div v-for="tenis in search.length ? filtered_clocks : api" :key="tenis.id" class="produto-tenis">
+      <router-link :to="{name: 'tenispaginas', params: {id: tenis.id}}">
       <div class="love">
         <Love />
       </div>
@@ -34,6 +51,7 @@ export default {
           {{ "R$" + tenis.preco }}
         </router-link>
       </div>
+    </router-link>
     </div>
   </div>
   <Loading v-else/>
@@ -43,7 +61,7 @@ export default {
 <style scoped>
 section {
   max-width: 1450px;
-  margin: 35px auto;
+  margin: 10px auto;
 }
 
 .produtos {
@@ -82,6 +100,10 @@ section {
 .conteiner-info2 h1 {
   font-size: 1.2rem;
   font-weight: bold;
+  color: black;
+}
+.conteiner-info2 p {
+  color: black;
 }
 .btn-preco {
   display: block;

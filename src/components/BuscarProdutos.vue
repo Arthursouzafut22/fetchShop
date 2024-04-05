@@ -1,19 +1,17 @@
 <script>
 export default {
+  props: ["modelValue"],
+  emits: ["update:modelValue"],
   data() {
     return {
-      termoBusca: '',
-      rotaSelecionada: ''
-    
+      busca: "",
     };
   },
   methods: {
-    buscarProdutos() {
-    
-        
-
-    }
-  }
+    test(evt) {
+      this.$emit("update:modelValue", evt.target.value);
+    },
+  },
 };
 </script>
 
@@ -24,24 +22,17 @@ export default {
       type="text"
       id="buscar"
       placeholder="Buscar Produto"
-      v-model="busca"
-    />
-    <input @click.prevent="buscarProdutos"
-      type="submit"
-      value="buscar"
-      id="lupa" 
+      :value="modelValue"
+      @input="test($event)"
     />
   </form>
-  {{ termoBusca }}
 </template>
 
 
 <style scoped>
 form {
   max-width: 700px;
-  gap: 5px;
-  margin: 20px auto;
-  position: relative;
+  margin: 0px auto 1.8rem auto;
   padding: 0px 15px;
 }
 
@@ -62,9 +53,6 @@ form {
   background: url("/src/assets/search.svg") no-repeat center center;
   text-indent: -150px;
   cursor: pointer;
-  position: absolute;
-  top: 0px;
-  right: 0px;
   border-radius: 8px;
 }
 </style>

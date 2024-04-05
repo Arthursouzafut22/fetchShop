@@ -2,37 +2,62 @@
 import fetchShop from "@/mixins/fetchShop.js";
 import Love from "../components/Love.vue";
 import Loading from "../components/Loading.vue";
+import BuscarProdutos from "@/components/BuscarProdutos.vue";
 
 export default {
   components: {
     Love,
     Loading,
+    BuscarProdutos,
   },
+  inject: ["search"],
   mixins: [fetchShop],
   created() {
     this.fetchShop("/relogios");
   },
-  
+  data() {
+    return {
+      search: "",
+      filtered_clocks: [],
+    };
+  },
+  watch: {
+    search(nv) {
+      this.filtered_clocks = this.api.filter((item) =>
+        item.nome.toLowerCase().includes(nv.toLowerCase())
+      );
+    },
+  },
 };
 </script>
 
 <template>
   <section>
+    <BuscarProdutos v-model="search"  />
+
     <div v-if="api.length" class="produtos">
-      <div v-for="relogio in api" :key="relogio" class="produto-relogio">
-        <div class="love">
-          <Love />
-        </div>
-        <img :src="relogio.foto" alt="relogio" class="img-relogio" />
-        <div class="conteiner-info">
-          <div class="conteiner-info2">
-            <h1>{{ relogio.nome }}</h1>
-            <p>{{ relogio.marca }}</p>
+      <div
+        v-for="relogio in search.length ? filtered_clocks : api"
+        :key="relogio.id"
+        class="produto-relogio"
+      >
+        <router-link
+          :to="{ name: 'relogiospaginas', params: { id: relogio.id } }"
+        >
+          <div class="love">
+            <Love />
           </div>
-          <router-link to="/" class="btn-preco">
-            {{ "R$" + relogio.preco }}
-          </router-link>
-        </div>
+          <img :src="relogio.foto" alt="relogio" class="img-relogio" />
+          <div class="conteiner-info">
+            <div class="conteiner-info2">
+              <h1>{{ relogio.nome }}</h1>
+              <p>{{ relogio.marca }}</p>
+            </div>
+            <router-link to="/" class="btn-preco">
+              {{ "R$" + relogio.preco }}
+            </router-link>
+          </div>
+        </router-link>
       </div>
     </div>
     <loading v-else />
@@ -42,7 +67,7 @@ export default {
 <style scoped>
 section {
   max-width: 1450px;
-  margin: 35px auto;
+  margin: 10px auto;
 }
 
 .produtos {
@@ -83,6 +108,10 @@ section {
 .conteiner-info2 h1 {
   font-size: 1.2rem;
   font-weight: bold;
+  color: black;
+}
+.conteiner-info2 p {
+  color: black;
 }
 .btn-preco {
   display: block;
