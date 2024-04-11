@@ -32,7 +32,7 @@ export default {
 <style scoped>
 form {
   max-width: 700px;
-  margin: 0px auto 1.8rem auto;
+  margin: 0px auto 8px auto;
   padding: 0px 15px;
 }
 

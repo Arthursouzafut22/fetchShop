@@ -1,7 +1,6 @@
 <script >
 import { RouterLink, RouterView } from "vue-router";
 import TheHeader from "./components/TheHeader.vue";
-import BuscarProdutos from "./components/BuscarProdutos.vue";
 
 export default {
   data() {
@@ -9,7 +8,6 @@ export default {
   },
   components: {
     TheHeader,
-    BuscarProdutos,
   },
 };
 </script>

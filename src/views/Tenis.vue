@@ -34,14 +34,18 @@ export default {
 
 <template>
    <section>
-    <BuscarProdutos v-model="search"/>
+    <div class="info"> 
+      <BuscarProdutos v-model="search" />
+      <h1>{{ api.length }} Produtos</h1>
+   </div>
+
     <div v-if="api.length" class="produtos">
     <div v-for="tenis in search.length ? filtered_clocks : api" :key="tenis.id" class="produto-tenis">
       <router-link :to="{name: 'tenispaginas', params: {id: tenis.id}}">
       <div class="love">
         <Love />
       </div>
-      <img :src="tenis.foto" alt="relogio" class="img-tenis" />
+      <img :src="tenis.foto[0]" alt="relogio" class="img-tenis" />
       <div class="conteiner-info">
         <div class="conteiner-info2">
           <h1>{{ tenis.nome }}</h1>
@@ -60,13 +64,20 @@ export default {
 
 <style scoped>
 section {
-  max-width: 1450px;
+  max-width: 1400px;
   margin: 10px auto;
+}
+
+.info h1 {
+  margin: 0px 12px 10px 0px;
+  padding: 0;
+  text-align: right;
+  color:darkgrey;
 }
 
 .produtos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(342px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(325px, auto));
   justify-content: center;
   align-items: center;
   gap: 25px;
@@ -78,31 +89,31 @@ section {
   transition: .50s;
   cursor: pointer;
 }
-.produto-tenis:hover {
-  transform: scale(1.1);
-}
 .love {
   display: flex;
   justify-content: end;
 }
 .img-tenis{
-  max-width: 250px;
+  max-width: 220px;
   margin: 0 auto;
 }
 .conteiner-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 15px;
 }
 .conteiner-info2 {
   margin-top: 20px;
 }
 .conteiner-info2 h1 {
-  font-size: 1.2rem;
+  font-size: clamp(14px, 4vw, 1.2rem);
+
   font-weight: bold;
   color: black;
 }
 .conteiner-info2 p {
+  font-size: clamp(12px, 4vw, 1rem);
   color: black;
 }
 .btn-preco {
@@ -112,5 +123,28 @@ section {
   border-radius: 8px;
   padding: 8px;
 }
+
+@media  (max-width: 480px) {
+  .btn-preco {
+    padding: 5px;
+  }
+}
+
+@media  (max-width: 767px) {
+  section {
+    padding: 20px;
+  }
+  .produtos {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .img-tenis {
+    max-width: 120px;
+  }
+  .conteiner-info2 p {
+    display: none;
+  }
+}
+
 </style>
 

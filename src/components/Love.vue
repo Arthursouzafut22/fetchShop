@@ -128,4 +128,11 @@ export default {};
     display: none;
   }
 }
+
+@media  (max-width: 767px) {
+  .heart-container {
+    width: 25px;
+    height: 25px;
+  }
+}
 </style>

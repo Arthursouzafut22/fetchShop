@@ -3,15 +3,25 @@
             {
                 "id": "relogio1",
                 "nome": "Apple Watch Nike",
-                "foto": ["/src/assets/imgs.vuexx/relogios/relogio1.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/relogios/relogio1.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio1DT.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio2DT.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio3DT.png"
+                ],
                 "preco": 200,
                 "marca": "Apple Nike",
                 "descricao": "Apple Watch Nike Se Gps Cellular 44mm Pulseira Cinza-preto Cor Da Pulseira Cinza-carvão/preto Cor Da Caixa Cinza-espacial processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
             },
             {
                 "id": "relogio2",
-                "nome": "Apple Watch SE GPS",
-                "foto": ["/src/assets/imgs.vuexx/relogios/relogio2.png"],
+                "nome": "Apple Watch SE",
+                "foto": [
+                    "/src/assets/imgs.vuexx/relogios/relogio2.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio2TC1.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio2TC2.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio2TC3.png"
+                ],
                 "preco": 300,
                 "marca": "Apple Watch",
                 "descricao": "Apple Watch SE GPS • Caixa estelar de alumínio – 40 mm • Pulseira loop esportiva estelar processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
@@ -19,7 +29,12 @@
             {
                 "id": "relogio3",
                 "nome": "Apple Watch Nike",
-                "foto": ["/src/assets/imgs.vuexx/relogios/relogio3.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/relogios/relogio3.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio3LO.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio3LO1.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio3LO2.png"
+                ],
                 "preco": 400,
                 "marca": "Apple Nike",
                 "descricao": "Apple Watch SE GPS • Caixa estelar de alumínio – 40 mm • Pulseira loop esportiva estelar processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
@@ -27,15 +42,25 @@
             {
                 "id": "relogio4",
                 "nome": "Apple Watch SE",
-                "foto": ["/src/assets/imgs.vuexx/relogios/relogio4.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/relogios/relogio4.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio4PL.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio4PL1.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio4PL2.png"
+                ],
                 "preco": 500,
                 "marca": "Apple Nike",
                 "descricao": "Apple Watch SE GPS • Caixa estelar de alumínio – 40 mm • Pulseira loop esportiva estelar processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
             },
             {
                 "id": "relogio5",
-                "nome": "Apple Watch Nike Se",
-                "foto": ["/src/assets/imgs.vuexx/relogios/relogio5.png"],
+                "nome": "Apple Watch Nike",
+                "foto": [
+                    "/src/assets/imgs.vuexx/relogios/relogio5.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio5BL.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio5BL1.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio5BL2.png"
+                ],
                 "preco": 600,
                 "marca": "Apple Watch",
                 "descricao": "Apple Watch Nike Se Gps Cellular 44mm Pulseira Cinza-preto Cor Da Pulseira Cinza-carvão/preto Cor Da Caixa Cinza-espacial processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
@@ -43,7 +68,13 @@
             {
                 "id": "relogio6",
                 "nome": "Apple Watch Series",
-                "foto": ["/src/assets/imgs.vuexx/relogios/relogio6.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/relogios/relogio6.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio6PPK2.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio6PPK.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio6PPK3.png"
+
+                ],
                 "preco": 560,
                 "marca": "Apple Watch",
                 "descricao": "Apple Watch Series 9 Gps Caixa Prateada De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
@@ -51,7 +82,12 @@
             {
                 "id": "relogio7",
                 "nome": "Apple Watch Gold",
-                "foto": ["/src/assets/imgs.vuexx/relogios/relogio7.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/relogios/relogio7.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio7TM1.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio7TM2.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio7TM.png"
+                ],
                 "preco": 450,
                 "marca": "Apple Watch",
                 "descricao": "Apple Watch Series 9 Gps Caixa Prateada De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
@@ -59,7 +95,12 @@
             {
                 "id": "relogio8",
                 "nome": "Apple Watch Black",
-                "foto": ["/src/assets/imgs.vuexx/relogios/relogio8.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/relogios/relogio8.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio8TCU3.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio8TCU1.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio8TCU2.png"
+                ],
                 "preco": 800,
                 "marca": "Apple Watch",
                 "descricao": "Apple Watch Series 9 Gps Caixa Black De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
@@ -67,7 +108,12 @@
             {
                 "id": "relogio9",
                 "nome": "Apple Watch Blue",
-                "foto": ["/src/assets/imgs.vuexx/relogios/relogio9.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/relogios/relogio9.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio9PC.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio9PC1.png",
+                    "/src/assets/imgs.vuexx/relogios/relogio9PC2.png"
+                ],
                 "preco": 800,
                 "marca": "Apple Watch",
                 "descricao": "Apple Watch Series 9 Gps Caixa Blue De Alumínio 41 Mm Pulseira Loop Esportiva Azul-inverno processador S9 SiP de dois núcleos de 64 bits 64 GB de capacidade"
@@ -77,67 +123,110 @@
         "tenis" : [
             {
                 "id": "tenis1",
-                "nome": "Tênis Air Jordan 1 Low",
-                "foto": ["/src/assets/imgs.vuexx/tenis/tenis1.png"],
+                "nome": "Tênis Air Jordan",
+                "foto": [
+                    "/src/assets/imgs.vuexx/tenis/tenis1.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis1AB.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis1AB1.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis1AB2.png"
+
+
+                ],
                 "preco": 560,
                 "marca": "Nike",
-                "descricao": "Inspirado no original que estreou em 1985, o Air Jordan 1 Low oferece um visual clássico e limpo "
+                "descricao": "Inspirado no original que estreou em 1985, o Air Jordan 1 Low oferece um visual clássico e limpo Inspirado no bando de desajustados com cores que não combinam de 2001, o Dunk Low está de volta"
             },
             {
                 "id": "tenis2",
                 "nome": "Tênis Air max 1",
-                "foto": ["/src/assets/imgs.vuexx/tenis/tenis2.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/tenis/tenis2.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis2BL.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis2BL1.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis2BL2.png"
+
+                ],
                 "preco": 800,
                 "marca": "Nike",
-                "descricao": "Inspirado no original que estreou em 1985, o Air Jordan 1 Low oferece um visual clássico e limpo "
+                "descricao": "Inspirado no original que estreou em 1985, o Air Jordan 1 Low oferece um visual clássico e limpo Inspirado no bando de desajustados com cores que não combinam de 2001, o Dunk Low está de volta"
             },
             {
                 "id": "tenis3",
-                "nome": "Tênis Nike Air Max 90",
-                "foto": ["/src/assets/imgs.vuexx/tenis/tenis3.png"],
+                "nome": "Tênis Nike Air",
+                "foto": [
+                    "/src/assets/imgs.vuexx/tenis/tenis3.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis3AA.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis3AA1.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis3AA2.png"
+                ],
                 "preco": 700,
                 "marca": "Nike",
-                "descricao": "Amarre os cadarços e sinta o legado. Produzido na interseção entre artes, música e cultura,"
+                "descricao": "Amarre os cadarços e sinta o legado. Produzido na interseção entre artes, música e cultura, Inspirado no bando de desajustados com cores que não combinam de 2001, o Dunk Low está de volta"
             },
             {
                 "id": "tenis4",
-                "nome": "Tênis Air Jordan 1",
-                "foto": ["/src/assets/imgs.vuexx/tenis/tenis4.png"],
+                "nome": "Tênis Air Jordan",
+                "foto": [
+                    "/src/assets/imgs.vuexx/tenis/tenis4.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis4BB.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis4BB1.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis4BB2.png"
+                ],
                 "preco": 900,
                 "marca": "Nike",
-                "descricao": "Novas cores e novas texturas dão a você um AJ1 atualizado sem perder aquela ótima aparência "
+                "descricao": "Novas cores e novas texturas dão a você um AJ1 atualizado sem perder aquela ótima aparência Apaixonado pelo visual clássico do basquete dos anos 80, mas tem uma queda pela cultura acelerada dos jogos de hoje "
             },
             {
                 "id": "tenis5",
-                "nome": "Tênis Nike Air Max 90",
-                "foto": ["/src/assets/imgs.vuexx/tenis/tenis5.png"],
+                "nome": "Tênis Nike Air",
+                "foto": [
+                    "/src/assets/imgs.vuexx/tenis/tenis5.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis5CC.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis5CC1.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis5CC2.png"
+                ],
                 "preco": 400,
                 "marca": "Nike",
-                "descricao": "Amarre os cadarços e sinta o legado. Produzido na interseção entre artes, música e cultura"
+                "descricao": "Amarre os cadarços e sinta o legado. Produzido na interseção entre artes, música e cultura Apaixonado pelo visual clássico do basquete dos anos 80, mas tem uma queda pela cultura acelerada dos jogos de hoje"
             },
             {
                 "id": "tenis6",
                 "nome": "Tênis Nike Air Force",
-                "foto": ["/src/assets/imgs.vuexx/tenis/tenis6.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/tenis/tenis6.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis6DD.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis6DD1.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis6DD2.png"
+                ],
                 "preco": 350,
                 "marca": "Nike",
-                "descricao": "Tudo o que você ama no AF1 — agora em dobro! O Nike Air Force 1 Shadow dá um toque divertido"
+                "descricao": "Tudo o que você ama no AF1 — agora em dobro! O Nike Air Force 1 Shadow dá um toque divertido Apaixonado pelo visual clássico do basquete dos anos 80, mas tem uma queda pela cultura acelerada dos jogos de hoje"
             },
             {
                 "id": "tenis7",
                 "nome": "Tênis Nike Jordan",
-                "foto": ["/src/assets/imgs.vuexx/tenis/tenis7.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/tenis/tenis7.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis7EE.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis7EE1.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis7EE2.png"
+                ],
                 "preco": 750,
                 "marca": "Nike",
-                "descricao": "Tudo o que você ama no Jordan agora em dobro! O Nike Air Jordan 1 Shadow dá um toque divertido"
+                "descricao": "Tudo o que você ama no Jordan agora em dobro! O Nike Air Jordan 1 Shadow dá um toque divertido Apaixonado pelo visual clássico do basquete dos anos 80, mas tem uma queda pela cultura acelerada dos jogos de hoje"
             },
             {
                 "id": "tenis8",
                 "nome": "Tênis Nike Pink",
-                "foto": ["/src/assets/imgs.vuexx/tenis/tenis8.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/tenis/tenis8.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis8FF.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis8FF1.png",
+                    "/src/assets/imgs.vuexx/tenis/tenis8FF2.png"
+                ],
                 "preco": 650,
                 "marca": "Nike",
-                "descricao": "Tudo o que você ama no Pink agora em dobro! O Nike Air Pink 1 Shadow dá um toque divertido"
+                "descricao": "Tudo o que você ama no Pink agora em dobro! O Nike Air Pink 1 Shadow dá um toque divertido Apaixonado pelo visual clássico do basquete dos anos 80, mas tem uma queda pela cultura acelerada dos jogos de hoje"
             }
         ],
 
@@ -145,7 +234,12 @@
             {
                 "id": "roupa1",
                 "nome": "Camiseta Nike",
-                "foto": ["/src/assets/imgs.vuexx/roupas/roupa1.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/roupas/roupa1.png",
+                    "/src/assets/imgs.vuexx/roupas/roupaAA.png",
+                    "/src/assets/imgs.vuexx/roupas/roupaAA1.png",
+                    "/src/assets/imgs.vuexx/roupas/roupaAA2.png"
+                ],
                 "preco": 150,
                 "marca": "Nike",
                 "descricao": "A camiseta NikeCourt traz tecido que absorve o suor e ajuda a manter você fresco e confiante "
@@ -153,7 +247,12 @@
             {
                 "id": "roupa2",
                 "nome": "Moletom Nike",
-                "foto": ["/src/assets/imgs.vuexx/roupas/roupa2.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/roupas/roupa2.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa2BB.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa2BB1.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa2BB3.png"
+                ],
                 "preco": 250,
                 "marca": "Nike",
                 "descricao": "Realize diversas combinações estilosas ao lado da Blusa de Moletom Soft New.Possui bolso "
@@ -161,7 +260,12 @@
             {
                 "id": "roupa3",
                 "nome": "Jaqueta Nike",
-                "foto": ["/src/assets/imgs.vuexx/roupas/roupa3.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/roupas/roupa3.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa3CC.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa3CC1.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa3CC2.png"
+                ],
                 "preco": 450,
                 "marca": "Nike",
                 "descricao": "A JAQUETA NIKE RUNNING. A Jaqueta Nike Windrunner recebe uma atualização com materiais que repelem a água e um design compactável"
@@ -169,7 +273,12 @@
             {
                 "id": "roupa4",
                 "nome": "Camiseta Nike Rafa",
-                "foto": ["/src/assets/imgs.vuexx/roupas/roupa4.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/roupas/roupa4.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa4DD.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa4DD1.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa4DD2.png"
+                ],
                 "preco": 100,
                 "marca": "Nike",
                 "descricao": "Quando se fala em qualidade e conforto, pensamos em uma das marcas mais renomadas do mercado  Nike! Esta marca"
@@ -177,7 +286,12 @@
             {
                 "id": "roupa5",
                 "nome": "Moletom Nike F.C.",
-                "foto": ["/src/assets/imgs.vuexx/roupas/roupa5.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/roupas/roupa5.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa5EE.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa5EE1.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa5EE2.png"
+                ],
                 "preco": 240,
                 "marca": "Nike",
                 "descricao": "O moletom com capuz Nike FC possui tecido antissuor e macio para manter o aquecimento"
@@ -185,7 +299,14 @@
             {
                 "id": "roupa6",
                 "nome": "Camisa Nike F.C.",
-                "foto": ["/src/assets/imgs.vuexx/roupas/roupa6.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/roupas/roupa6.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa6FF.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa6FF1.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa6FF2.png"
+
+
+                ],
                 "preco": 140,
                 "marca": "Nike",
                 "descricao": "Quando se fala em qualidade e conforto, pensamos em uma das marcas mais renomadas do mercado  Nike! Esta marca"
@@ -193,7 +314,12 @@
             {
                 "id": "roupa7",
                 "nome": "Camisa Nike Blue",
-                "foto": ["/src/assets/imgs.vuexx/roupas/roupa7.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/roupas/roupa7.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa7GG.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa7GG1.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa7GG2.png"
+                ],
                 "preco": 120,
                 "marca": "Nike",
                 "descricao": "Quando se fala em qualidade e conforto, pensamos em uma das marcas mais renomadas do mercado  Nike! Esta marca"
@@ -201,7 +327,12 @@
             {
                 "id": "roupa8",
                 "nome": "Camisa Nike Black",
-                "foto": ["/src/assets/imgs.vuexx/roupas/roupa8.png"],
+                "foto": [
+                    "/src/assets/imgs.vuexx/roupas/roupa8.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa8HH.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa8HH1.png",
+                    "/src/assets/imgs.vuexx/roupas/roupa8HH2.png"
+                ],
                 "preco": 180,
                 "marca": "Nike",
                 "descricao": "Quando se fala em qualidade e conforto, pensamos em uma das marcas mais renomadas do mercado  Nike! Esta marca"
