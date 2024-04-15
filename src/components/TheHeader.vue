@@ -31,7 +31,7 @@ export default {
         <router-link to="/relogios">Rélogios</router-link>
         <router-link to="/tenis">Ténis</router-link>
         <router-link to="/roupas">Roupas</router-link>
-        <router-link to="/carrinho">
+        <router-link to="/cart">
           <img src="/src/assets/carrinho.png" alt="carrinho" class="img-cart" />
           <span class="value">0</span>
         </router-link>

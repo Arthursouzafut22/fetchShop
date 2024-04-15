@@ -163,6 +163,7 @@ section {
   color: white;
   background-color: black;
   cursor: pointer;
+  border-radius: 5px;
   transition: 0.5s;
 }
 

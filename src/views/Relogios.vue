@@ -4,7 +4,6 @@ import Love from "../components/Love.vue";
 import Loading from "../components/Loading.vue";
 import BuscarProdutos from "@/components/BuscarProdutos.vue";
 
-
 export default {
   components: {
     Love,
@@ -18,6 +17,7 @@ export default {
   },
   data() {
     return {
+      test: "",
       search: "",
       filtered_clocks: [],
     };
@@ -34,12 +34,12 @@ export default {
 
 <template>
   <section>
-    <div class="info"> 
+    <div class="info">
       <BuscarProdutos v-model="search" />
-      <h1>{{ api.length }} Produtos</h1>
-   </div>
+      <h1>{{ api?.length }} Produtos</h1>
+    </div>
 
-    <div v-if="api.length" class="produtos">
+    <div v-if="api?.length" class="produtos">
       <div
         v-for="relogio in search.length ? filtered_clocks : api"
         :key="relogio.id"
@@ -79,7 +79,7 @@ section {
   margin: 0px 12px 10px 0px;
   padding: 0;
   text-align: right;
-  color:darkgrey;
+  color: darkgrey;
 }
 
 .produtos {
@@ -105,7 +105,6 @@ section {
 .img-relogio {
   max-width: 220px;
   margin: 0 auto;
-
 }
 .conteiner-info {
   display: flex;
@@ -133,13 +132,13 @@ section {
   padding: 8px;
 }
 
-@media  (max-width: 480px) {
+@media (max-width: 480px) {
   .btn-preco {
     padding: 5px;
   }
 }
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
   section {
     padding: 20px;
   }

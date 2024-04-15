@@ -7,7 +7,19 @@ export default {
   data() {
     return {
       currentImage: null,
+      quantidade: 0,
     };
+  },
+  methods: {
+    setCurrentQtd(quantidade) {
+      this.quantidade = quantidade;
+    },
+    buyProduct() {
+      if (this.quantidade) {
+        const obj = { qtd: this.quantidade, product: this.api };
+        this.$store.dispatch("insertProduct", obj);
+      }
+    },
   },
   components: {
     Avaliable,
@@ -34,14 +46,15 @@ export default {
               class="img-principal"
             />
           </div>
-       
+
           <div class="galery">
             <img
               v-for="(galery, index) in api?.foto"
               :key="galery.foto"
               @click="currentImage = api.foto[index]"
               :src="galery"
-              :alt="galery.nome" class="img-galery"
+              :alt="galery.nome"
+              class="img-galery"
             />
           </div>
         </div>
@@ -53,8 +66,8 @@ export default {
         <span>{{ "R$" + api?.preco + ",00" }}</span>
         <p class="descricao">{{ api?.descricao }}</p>
         <div class="controls">
-          <Controlador />
-          <button>Comprar</button>
+          <Controlador @onChange="setCurrentQtd" />
+          <button @click="buyProduct">Comprar</button>
         </div>
       </div>
     </div>
@@ -119,7 +132,7 @@ section {
 
 .slid-enter-active,
 .slid-leave-active {
-  transition: all 0.50s;
+  transition: all 0.5s;
 }
 
 .marca {
@@ -161,12 +174,11 @@ section {
   color: white;
   background-color: black;
   cursor: pointer;
+  border-radius: 5px;
   transition: 0.5s;
 }
 
 .controls button:hover {
   transform: scale(1.1);
 }
-
-
 </style>

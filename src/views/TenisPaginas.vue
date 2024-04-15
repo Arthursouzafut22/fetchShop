@@ -7,6 +7,7 @@ export default {
   data() {
     return {
       currentImage: null,
+      quantidade: 0,
     };
   },
   components: {
@@ -15,6 +16,18 @@ export default {
   },
   props: ["id"],
   mixins: [fetchShop],
+
+  methods: {
+    setCurrentQtd(quantidade) {
+      this.quantidade = quantidade;
+    },
+    buyProduct() {
+      if (this.quantidade) {
+        const obj = { qtd: this.quantidade, product: this.api };
+        this.$store.dispatch("insertProduct", obj);
+      }
+    },
+  },
 
   created() {
     this.fetchShop(`/tenis/${this.id}`);
@@ -53,8 +66,8 @@ export default {
         <span>{{ "R$" + api?.preco + ",00" }}</span>
         <p class="descricao">{{ api?.descricao }}</p>
         <div class="controls">
-          <Controlador />
-          <button>Comprar</button>
+          <Controlador @onChange="setCurrentQtd"/>
+          <button  @click="buyProduct">Comprar</button>
         </div>
       </div>
     </div>
@@ -160,6 +173,7 @@ section {
   color: white;
   background-color: black;
   cursor: pointer;
+  border-radius: 5px;
   transition: 0.5s;
 }
 
