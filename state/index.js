@@ -1,6 +1,5 @@
 import { createStore } from "vuex";
 
-
 const store = createStore({
   state() {
     return {
@@ -14,8 +13,14 @@ const store = createStore({
   },
   mutations: {
     INSERT_PRODUCT(state, item) {
-      for (let i = 0; i < item.qtd; i++) {
-        const new_product = { id_unique: Date.now(), ...item.product };
+      const produtoExistente = state.carrinho.find(
+        (produto) => produto.id === item.product.id
+      );
+
+      if (produtoExistente) {
+        produtoExistente.qtd += item.qtd;
+      } else {
+        const new_product = { ...item.product, qtd: item.qtd };
         state.carrinho.push(new_product);
       }
     },
@@ -25,15 +30,9 @@ const store = createStore({
       return state.carrinho || [];
     },
     $total(state) {
-      let total = 0;
-
-      if (state.carrinho.length) {
-        for (let obj of state.carrinho) {
-          total += obj.preco;
-        }
-        // total = state.carrinho.reduce((sum, current) => sum + current.preco);
-      }
-      return total;
+      return state.carrinho.reduce((total, produto) => {
+        return total + produto.preco * produto.qtd;
+      }, 0);
     },
   },
 });

@@ -13,8 +13,8 @@ export default {
     Avaliable,
     Controlador,
   },
-    props: ['id'],
     mixins: [fetchShop],
+    props: ['id'],
 
     created() {
         this.fetchShop(`/roupas/${this.id}`)

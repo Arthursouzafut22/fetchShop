@@ -1,6 +1,6 @@
 @import './base.css';
 
-#app {
+#app:not(#footer) {
   max-width: 1400px;
   margin: 0 auto;
   font-weight: normal;

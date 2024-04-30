@@ -5,12 +5,16 @@ import Controlador from "../components/Controlador.vue";
 
 export default {
   data() {
-    return {};
+    return {
+      quantidade: 0
+    };
   },
   components: {
     Controlador,
   },
   mixins: [fetchShop],
+
+  computed: {},
 };
 </script>
 
@@ -28,15 +32,13 @@ export default {
             <img :src="produto.foto[0]" alt="" />
             <div>
               <p class="nome">{{ produto.nome }}</p>
-              <span class="marca">Marca</span>
+              <span class="marca">{{ produto.marca }}</span>
             </div>
           </div>
-          <p class="preco">R$ {{ produto.preco }}</p>
-          <Controlador class="control" />
-          <p class="total">Total</p>
-          <button class="close">X</button>
+          <p class="preco">{{ "R$" + produto.preco + ",00" }}</p>
+            
+          <button class="close" @click="removeProduct">X</button>
         </div>
-
       </div>
 
       <div class="container-detalhes-compras">
@@ -51,9 +53,9 @@ export default {
         </div>
         <div class="cc-total cc">
           <p>Total:</p>
-          <p>{{  $store.getters.$total || 0}}</p>
+          <p>{{ "R$" + $store.getters.$total + ",00" }}</p>
         </div>
-        <button class="btn-check">Finalizar</button>
+       <router-link class="btn-check" to="/dados">Finalizar</router-link>
       </div>
     </div>
   </section>
@@ -61,11 +63,12 @@ export default {
 
 
 
+
+
 <style scoped>
 section {
   max-width: 1400px;
   margin: 0 auto;
-  /* border: 2px solid; */
 }
 
 h1 {
@@ -76,16 +79,18 @@ h1 {
 .container-cart {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  justify-content: center;
   gap: 20px;
   margin-top: 20px;
+  padding: 0px 15px;
 }
 
 .container-product {
   /* overflow-y: scroll; */
+  height: auto;
 }
 
 .product {
-  /* border: 2px solid greenyellow; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,27 +107,24 @@ h1 {
 }
 .cc-info img {
   max-width: 100px;
+  width: 100%;
   background: #e8e8e8;
 }
 
 .nome {
-  font-size: 20px;
+  font-size: clamp(15px,4vw,20px);
   font-weight: bold;
 }
 .marca {
-  font-size: 17px;
+  font-size: clamp(13px,4vw,17px);
 }
 .preco {
-  font-size: 18px;
+  font-size: clamp(15px,4vw,18px);
   font-weight: bold;
-  margin: 0;
+  margin: 0 7px;
+  
 }
 
-.total {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 0;
-}
 
 .close {
   font-size: 18px;
@@ -131,6 +133,7 @@ h1 {
   border: none;
   background: #d6d6d6;
   padding: 5px 12px;
+  border-radius: 4px;
   cursor: pointer;
 }
 .control {
@@ -144,6 +147,7 @@ h1 {
   padding: 15px;
   background: #e8e8e8;
   margin-bottom: 80px;
+  border-radius: 6px;
 }
 
 .container-detalhes-compras span {
@@ -176,6 +180,8 @@ h1 {
 
 .btn-check {
   font-size: 18px;
+  font-weight: normal;
+  text-align: center;
   border: none;
   color: white;
   background-color: black;
@@ -185,5 +191,11 @@ h1 {
   margin: 20px auto;
   cursor: pointer;
   border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .container-cart {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

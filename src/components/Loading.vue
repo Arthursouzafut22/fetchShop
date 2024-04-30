@@ -15,7 +15,7 @@ export default {};
 .loading {
   display: flex;
   justify-content: center;
-  margin: 100px auto;
+  margin: 180px auto;
 }
 .loading span {
   display: inline-block;

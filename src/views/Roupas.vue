@@ -111,7 +111,7 @@ section {
   margin-top: 20px;
 }
 .conteiner-info2 h1 {
-  font-size: 1.2rem;
+  font-size: clamp(14px, 4vw, 1.2rem);
   font-weight: bold;
   color: black;
 }
@@ -125,4 +125,30 @@ section {
   border-radius: 8px;
   padding: 8px;
 }
+
+@media (max-width: 480px) {
+  .btn-preco {
+    padding: 4px;
+  }
+}
+
+@media (max-width: 767px) {
+  section {
+    padding: 20px;
+  }
+  .produtos {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .img-roupa {
+    max-width: 120px;
+  }
+  .conteiner-info2 p {
+    display: none;
+  }
+}
+
+
+
+
 </style>

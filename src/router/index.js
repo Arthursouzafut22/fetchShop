@@ -7,6 +7,7 @@ import RelogiosPagina from '../views/RelogiosPagina.vue'
 import TenisPaginas from '../views/TenisPaginas.vue'
 import RoupasPaginas from '../views/RelogiosPagina.vue'
 import Cart from '../views/Cart.vue'
+import UsuarioForm from '../views/UsuarioForm.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -53,6 +54,11 @@ const router = createRouter({
       path: '/cart',
       name: 'cart',
       component: Cart,
+    },
+    {
+      path: '/dados',
+      name: 'dados',
+      component: UsuarioForm,
     }
 
   ]

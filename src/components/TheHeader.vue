@@ -33,7 +33,7 @@ export default {
         <router-link to="/roupas">Roupas</router-link>
         <router-link to="/cart">
           <img src="/src/assets/carrinho.png" alt="carrinho" class="img-cart" />
-          <span class="value">0</span>
+          <span class="value">{{ $store.state.carrinho.length }}</span>
         </router-link>
         <router-link to="/login" class="login">Conecte-se</router-link>
       </nav>
@@ -57,11 +57,12 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 25px;
+  gap: 25px;  
 }
 
 nav a {
   font-size: 18px;
+  font-weight: 500;
   color: #808080;
   position: relative;
 }
@@ -130,7 +131,7 @@ a:active {
   }
   .menu {
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 0px;
     right: 0;
     width: 50%;

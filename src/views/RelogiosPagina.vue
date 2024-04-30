@@ -3,11 +3,15 @@
 import fetchShop from "@/mixins/fetchShop.js";
 import Avaliable from "../components/Avaliable.vue";
 import Controlador from "../components/Controlador.vue";
+import Loading from "../components/Loading.vue";
+import AlertModal from "../components/AlertModal.vue";
+
 export default {
   data() {
     return {
       currentImage: null,
       quantidade: 0,
+      ativo: false,
     };
   },
   methods: {
@@ -15,15 +19,21 @@ export default {
       this.quantidade = quantidade;
     },
     buyProduct() {
-      if (this.quantidade) {
+      if (this.quantidade && this.quantidade > 0) {
+        this.ativo = !this.ativo;
         const obj = { qtd: this.quantidade, product: this.api };
         this.$store.dispatch("insertProduct", obj);
       }
+      setTimeout(() => {
+        this.ativo = false;
+      }, 3000);
     },
   },
   components: {
     Avaliable,
     Controlador,
+    Loading,
+    AlertModal,
   },
   mixins: [fetchShop],
   props: ["id"],
@@ -69,6 +79,7 @@ export default {
           <Controlador @onChange="setCurrentQtd" />
           <button @click="buyProduct">Comprar</button>
         </div>
+        <AlertModal v-show="ativo" />
       </div>
     </div>
   </section>
@@ -79,6 +90,7 @@ section {
   max-width: 100%;
   margin: 0 auto;
   padding: 25px;
+  overflow-x: hidden;
 }
 
 .container-pagina {

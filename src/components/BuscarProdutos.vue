@@ -23,7 +23,7 @@ export default {
       id="buscar"
       placeholder="Buscar Produto"
       :value="modelValue"
-      @input="test($event)"
+      @input="test($event)" 
     />
   </form>
 </template>
@@ -39,7 +39,7 @@ form {
 #buscar {
   font-size: 18px;
   width: 100%;
-  padding: 15px;
+  padding: 12px;
   border-radius: 8px;
   border: none;
   outline: transparent;

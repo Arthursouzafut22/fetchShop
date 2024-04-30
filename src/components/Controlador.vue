@@ -1,6 +1,7 @@
 
 <script>
 export default {
+  props: ['quantidade'],
   data() {
     return {
       quantidade: 0,
