@@ -1,4 +1,8 @@
 # fetchshop
+![ecom1](https://github.com/Arthursouzafut22/fetchShop/assets/128741183/ec11465f-2afb-414e-b98d-faeb4eeda6ac)
+![ecom2](https://github.com/Arthursouzafut22/fetchShop/assets/128741183/be3dada8-3bfe-48e0-a492-8969b053df2a)
+
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
